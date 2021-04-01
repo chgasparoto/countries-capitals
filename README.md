@@ -18,7 +18,7 @@
 
 ```sh
 node -v
-node: v8.3
+node: v10
 ```
 
 ## Installing
