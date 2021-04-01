@@ -53,7 +53,7 @@
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-json": "4.0.0",
     "rollup-plugin-node-resolve": "5.2.0",
-    "semantic-release": "^17.2.3",
+    "semantic-release": "17.4.2",
     "snazzy": "8.0.0",
     "standard": "14.2.0",
     "terser": "4.3.1",
