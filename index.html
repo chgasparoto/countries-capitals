@@ -1,0 +1,261 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>countries-capitals</title>
+	<meta name="description" content="Documentation for countries-capitals">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<script async src="assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">countries-capitals</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<h1>countries-capitals</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<a href="#countries-capitals" id="countries-capitals" style="color: inherit; text-decoration: none;">
+					<h1>Countries Capitals</h1>
+				</a>
+				<p>📦 🇧🇷 A simple package to get the capital of the countries <a href="https://www.npmjs.com/package/countries-capitals">https://www.npmjs.com/package/countries-capitals</a></p>
+				<p><img src="https://img.shields.io/travis/chgasparoto/countries-capitals?style=flat-square" alt="Travis (.org)">
+					<img src="https://img.shields.io/codecov/c/github/chgasparoto/countries-capitals?style=flat-square" alt="Codecov">
+					<img src="https://img.shields.io/npm/v/countries-capitals?style=flat-square" alt="npm">
+					<img src="https://img.shields.io/npm/dw/countries-capitals?style=flat-square" alt="npm">
+					<img src="https://img.shields.io/npm/l/countries-capitals?style=flat-square" alt="NPM">
+					<a href="https://lgtm.com/projects/g/chgasparoto/countries-capitals/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/g/chgasparoto/countries-capitals.svg?logo=lgtm&logoWidth=18" alt="Language grade: JavaScript"></a>
+					<a href="https://snyk.io//test/github/chgasparoto/countries-capitals?targetFile=package.json"><img src="https://snyk.io//test/github/chgasparoto/countries-capitals/badge.svg?targetFile=package.json" alt="Known Vulnerabilities"></a>
+					<a href="https://github.com/semantic-release/semantic-release?style=flat-square"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="semantic-release"></a>
+					<a href="http://commitizen.github.io/cz-cli?style=flat-square"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly"></a>
+				<img src="https://img.shields.io/badge/udemy--course-countries--capitals-red?style=flat-square" alt="udemy"></p>
+				<a href="#getting-started" id="getting-started" style="color: inherit; text-decoration: none;">
+					<h2>Getting Started</h2>
+				</a>
+				<a href="#prerequisites" id="prerequisites" style="color: inherit; text-decoration: none;">
+					<h3>Prerequisites</h3>
+				</a>
+				<pre><code class="language-sh"><span style="color: #000000">node -v</span>
+<span style="color: #000000">node: v10</span>
+</code></pre>
+				<a href="#installing" id="installing" style="color: inherit; text-decoration: none;">
+					<h2>Installing</h2>
+				</a>
+				<a href="#using-npm" id="using-npm" style="color: inherit; text-decoration: none;">
+					<h4>Using npm</h4>
+				</a>
+				<pre><code class="language-sh"><span style="color: #000000">npm install --save countries-capital</span>
+</code></pre>
+				<a href="#using-yarn" id="using-yarn" style="color: inherit; text-decoration: none;">
+					<h4>Using Yarn</h4>
+				</a>
+				<pre><code class="language-sh"><span style="color: #000000">yarn add countries-capital</span>
+</code></pre>
+				<a href="#how-to-use" id="how-to-use" style="color: inherit; text-decoration: none;">
+					<h2>How to use</h2>
+				</a>
+				<pre><code class="language-js"><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">Countries</span><span style="color: #000000"> = </span><span style="color: #795E26">require</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;countries-capital&#039;</span><span style="color: #000000">)</span>
+<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">countries</span><span style="color: #000000"> = </span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #795E26">Countries</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// filter by name</span>
+<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">brazil</span><span style="color: #000000"> = </span><span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byName</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;brazil&#039;</span><span style="color: #000000">)</span>
+
+<span style="color: #008000">/**</span>
+<span style="color: #008000"> * Get all country data:</span>
+<span style="color: #008000">  [{</span>
+<span style="color: #008000">    &quot;country&quot;: &quot;Brazil&quot;,</span>
+<span style="color: #008000">    &quot;city&quot;: &quot;Brasília&quot;,</span>
+<span style="color: #008000">    &quot;independence&quot;: &quot;1822&quot;,</span>
+<span style="color: #008000">    &quot;location&quot;: &quot;South America&quot;</span>
+<span style="color: #008000">  }]</span>
+<span style="color: #008000">*/</span>
+<span style="color: #001080">brazil</span><span style="color: #000000">.</span><span style="color: #795E26">toJson</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// get capital</span>
+<span style="color: #001080">brazil</span><span style="color: #000000">.</span><span style="color: #001080">capital</span><span style="color: #000000"> </span><span style="color: #008000">// Brasília</span>
+
+<span style="color: #008000">// resetting the filter</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">reset</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// filter by location and independence year</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byLocation</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;europe&#039;</span><span style="color: #000000">).</span><span style="color: #795E26">byIndependence</span><span style="color: #000000">(</span><span style="color: #098658">1900</span><span style="color: #000000">, </span><span style="color: #A31515">&#039;&gt;=&#039;</span><span style="color: #000000">)</span>
+
+<span style="color: #008000">/**</span>
+<span style="color: #008000"> * Get all countries data:</span>
+<span style="color: #008000">  [{</span>
+<span style="color: #008000">    &quot;country&quot;: &quot;Bulgaria&quot;,</span>
+<span style="color: #008000">    &quot;city&quot;: &quot;Sofia&quot;,</span>
+<span style="color: #008000">    &quot;independence&quot;: &quot;1908&quot;,</span>
+<span style="color: #008000">    &quot;location&quot;: &quot;Eastern Europe&quot;</span>
+<span style="color: #008000">  },</span>
+<span style="color: #008000">  {...},</span>
+<span style="color: #008000">  {...}</span>
+<span style="color: #008000">  ]</span>
+<span style="color: #008000">*/</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">toJson</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// When country has more than one country after applying the filter it returns a random capital every time it calls .capital</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #001080">capital</span><span style="color: #000000"> </span><span style="color: #008000">// Sofia</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #001080">capital</span><span style="color: #000000"> </span><span style="color: #008000">// ...</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #001080">capital</span><span style="color: #000000"> </span><span style="color: #008000">// ...</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #001080">capital</span><span style="color: #000000"> </span><span style="color: #008000">// ...</span>
+</code></pre>
+				<a href="#full-api-reference" id="full-api-reference" style="color: inherit; text-decoration: none;">
+					<h2>Full API Reference</h2>
+				</a>
+				<pre><code class="language-js"><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">Countries</span><span style="color: #000000"> = </span><span style="color: #795E26">require</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;countries-capital&#039;</span><span style="color: #000000">)</span>
+<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">countries</span><span style="color: #000000"> = </span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #795E26">Countries</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// lists all the countries data disregading any filter</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">list</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// reset any applied filters</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">reset</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// filter by country name</span>
+<span style="color: #008000">// passing country full name: single result</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byName</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;brazil&#039;</span><span style="color: #000000">)</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">toJson</span><span style="color: #000000">() </span><span style="color: #008000">// all country data as an array of objects</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #001080">capital</span><span style="color: #000000"> </span><span style="color: #008000">// only country capital as string</span>
+
+<span style="color: #008000">// passing country partial name: multiple results</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">reset</span><span style="color: #000000">().</span><span style="color: #795E26">byName</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;ind&#039;</span><span style="color: #000000">)</span>
+
+<span style="color: #008000">// filter by capital</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byCapital</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;amsterdam&#039;</span><span style="color: #000000">) </span><span style="color: #008000">// single result</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byCapital</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;ber&#039;</span><span style="color: #000000">) </span><span style="color: #008000">// multiple result</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byCapital</span><span style="color: #000000">(</span><span style="color: #0000FF">null</span><span style="color: #000000">) </span><span style="color: #008000">// multiple result. All countries without a Capital City</span>
+
+<span style="color: #008000">// filter by location</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byLocation</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;europe&#039;</span><span style="color: #000000">)</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byLocation</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;South America&#039;</span><span style="color: #000000">)</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byLocation</span><span style="color: #000000">(</span><span style="color: #0000FF">null</span><span style="color: #000000">)</span>
+
+<span style="color: #008000">// filter by independence date</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byIndependence</span><span style="color: #000000">(</span><span style="color: #098658">1822</span><span style="color: #000000">) </span><span style="color: #008000">// implicit = (equal sign) operator</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byIndependence</span><span style="color: #000000">(</span><span style="color: #098658">500</span><span style="color: #000000">, </span><span style="color: #A31515">&#039;&lt;&#039;</span><span style="color: #000000">) </span><span style="color: #008000">// lesser than</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byIndependence</span><span style="color: #000000">(</span><span style="color: #098658">2000</span><span style="color: #000000">, </span><span style="color: #A31515">&#039;&gt;=&#039;</span><span style="color: #000000">) </span><span style="color: #008000">// greater or equal than</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">byIndependence</span><span style="color: #000000">(</span><span style="color: #0000FF">null</span><span style="color: #000000">) </span><span style="color: #008000">// countries without independence year</span>
+
+<span style="color: #008000">// get the longest capital name of the list</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">longest</span><span style="color: #000000">().</span><span style="color: #001080">capital</span>
+
+<span style="color: #008000">// return all filtered data as array of objects</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #795E26">toJson</span><span style="color: #000000">()</span>
+
+<span style="color: #008000">// return capital as string</span>
+<span style="color: #008000">// if countries.length === 0, throw an error</span>
+<span style="color: #008000">// if countries.length === 1, return specific capital</span>
+<span style="color: #008000">// if countries.length &gt; 1, return random capital</span>
+<span style="color: #001080">countries</span><span style="color: #000000">.</span><span style="color: #001080">capital</span>
+</code></pre>
+				<a href="#running-the-tests" id="running-the-tests" style="color: inherit; text-decoration: none;">
+					<h2>Running the tests</h2>
+				</a>
+				<p>To run the tests go to the terminal and enter <code>npm run test</code></p>
+				<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
+					<h2>Contributing</h2>
+				</a>
+				<p>If you want to collaborate, please feel free. I appreciate any help :)</p>
+				<p>Please read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
+				<a href="#versioning" id="versioning" style="color: inherit; text-decoration: none;">
+					<h2>Versioning</h2>
+				</a>
+				<p>We use <a href="http://semver.org/">SemVer</a> for versioning. For the versions available, see the <a href="https://github.com/chgasparoto/countries-capitals/tags">tags on this repository</a>.</p>
+				<a href="#authors" id="authors" style="color: inherit; text-decoration: none;">
+					<h2>Authors</h2>
+				</a>
+				<ul>
+					<li><strong>Cleber Gasparoto</strong> - <a href="https://github.com/chgasparoto">Profile</a></li>
+				</ul>
+				<p>See also the list of <a href="https://github.com/chgasparoto/countries-capitals/contributors">contributors</a> who participated in this project.</p>
+				<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+					<h2>License</h2>
+				</a>
+				<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="modules.html">Exports</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/index.html">index</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
