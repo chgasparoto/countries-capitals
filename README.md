@@ -25,7 +25,7 @@ node: v10
 
 #### Using npm
 ```sh
-npm install --save countries-capital
+npm install --save countries-capitals
 ```
 
 #### Using Yarn
@@ -36,7 +36,7 @@ yarn add countries-capital
 ## How to use
 
 ```js
-const Countries = require('countries-capital')
+const Countries = require('countries-capitals')
 const countries = new Countries()
 
 // filter by name
@@ -86,7 +86,7 @@ countries.capital // ...
 ## Full API Reference
 
 ```js
-const Countries = require('countries-capital')
+const Countries = require('countries-capitals')
 const countries = new Countries()
 
 // lists all the countries data disregading any filter
